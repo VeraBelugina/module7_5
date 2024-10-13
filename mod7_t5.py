@@ -10,5 +10,5 @@ for root, dirs, files in os.walk(directory):
         file_size = os.path.getsize(filepath)
         parent_dir = os.path.dirname(filepath)
 
-print(f' Обнаружен файл: {file}\n Путь: {filepath}\n Размер: {file_size} байт\n Время изменения: {formatted_time}\n '
+        print(f'Обнаружен файл: {file}, Путь: {filepath}, Размер: {file_size} байт, Время изменения: {formatted_time}, '
       f'Родительская директория: {parent_dir}')
